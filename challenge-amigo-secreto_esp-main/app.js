@@ -24,9 +24,16 @@ function agregarAmigo() {
 function actualizarLista() {
     let listaAmigos = document.getElementById('listaAmigos');
     listaAmigos.innerHTML = '';
-    
-}
+    //Iterar sobre el arreglo: Usa un bucle for para recorrer el arreglo amigos y crear elementos de lista (<li>) para cada título.
+    for (let i = 0; i < ListaAmigos.length; i++) // recorrer el array 
+    {
+        let li = document.createElement('li'); // crear elemento li
+        li.textContent = ListaAmigos[i]; // asignar el nombre del amigo al contenido de li
+        listaAmigos.appendChild(li); // agregar li a la lista ul
+    // añadir los nombres en la app en un listado (elemento ul)
+    }
 
 function LimpiarCaja() {
     document.getElementById('amigo').value = '';
+}
 }
