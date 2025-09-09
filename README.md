@@ -1,7 +1,5 @@
-![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green) 
 <h1 align="center">🎁 Amigo Secreto</h1>
-<p align="center">
-  
+
 <p align="center">
   <img src="https://img.shields.io/badge/STATUS-EN%20DESARROLLO-green">
   <img src="https://img.shields.io/github/stars/tu-usuario?style=social">
@@ -29,7 +27,6 @@ Objetivo: Crear una herramienta simple para planificar el juego de intercambio d
 ## Estado del Proyecto
 :construction: Proyecto en desarrollo :construction:
 
----
 
 ## Funcionalidades
 - Agregar nombres a una lista.
