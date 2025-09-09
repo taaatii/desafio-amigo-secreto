@@ -30,7 +30,7 @@ Objetivo: Crear una herramienta simple para planificar el juego de intercambio d
 
 ## Funcionalidades
 - Agregar nombres a una lista.
-- Mostrar lista de amigos dinámicamente.
+- Mostrar lista de amigos.
 - Sortear un amigo secreto aleatoriamente.
 - Validaciones para entradas vacías y mínimo de participantes.
 
