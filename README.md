@@ -12,9 +12,8 @@
 ## 📑 Índice
 - [Descripción del Proyecto](#descripción-del-proyecto)
 - [Estado del Proyecto](#estado-del-proyecto)
-- [Funcionalidades y demostración](#funcionalidades)
+- [Funcionalidades](#funcionalidades)
 - [Cómo usar](#cómo-usar)
-- [Instalación](#instalación)
 - [Tecnologías utilizadas](#tecnologías-utilizadas)
 - [Autora](#autora)
 
@@ -39,28 +38,10 @@ Objetivo: Crear una herramienta simple para planificar el juego de intercambio d
 - Validaciones para entradas vacías y mínimo de participantes.
 
 ## Cómo Usar
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/your-username/amigo-secreto.git
-   ```
-2. Abre `index.html` en un navegador.
-3. Ingresa nombres y realiza el sorteo.
-
-## Instalación
-Sigue estos pasos para configurar el proyecto localmente:
-
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/your-username/amigo-secreto.git
-   ```
-2. Navega al directorio del proyecto:
-   ```bash
-   cd amigo-secreto
-   ```
-3. Abre el archivo `index.html` en un navegador:
-   ```bash
-   open index.html  # En macOS
-   start index.html  # En Windows
+- Ingresa un nombre en el campo de texto y haz clic en "Agregar".
+- Repite para añadir al menos dos amigos.
+- Haz clic en "Sortear" para ver el amigo secreto seleccionado.
+Ejemplo: Si añades "Ana" y "Juan", el sorteo mostrará algo como "Tu amigo secreto es: Ana".
    
 ## Tecnologías utilizadas
 **javaScript**
