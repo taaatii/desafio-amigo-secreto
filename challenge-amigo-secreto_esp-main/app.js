@@ -40,8 +40,8 @@ function actualizarLista(){
 }
 
 function sortearAmigo() {
-    if (ListaAmigos.length < 2) {
-        alert('Necesitas al menos dos amigos para hacer el sorteo.');
+    if (ListaAmigos.length < 3) {
+        alert('Necesitas al menos tres amigos para hacer el sorteo.');
         return;
     }
     let indice = Math.floor(Math.random() * ListaAmigos.length); // Math.random() genera un número aleatorio entre 0 y 1, se multiplica por la longitud del array y se redondea hacia abajo con Math.floor()
