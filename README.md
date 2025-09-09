@@ -26,7 +26,7 @@ El usuario puede agregar nombres a una lista, visualizar la lista completa y rea
 Objetivo: Crear una herramienta simple para planificar el juego de intercambio de regalos entre amigos o familiares.  
 
 
-## 🚧 Estado del Proyecto
+## Estado del Proyecto
 :construction: Proyecto en desarrollo :construction:
 
 ---
