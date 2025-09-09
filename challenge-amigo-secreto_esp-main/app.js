@@ -1,10 +1,5 @@
-//Fucionalidades:
-//Agregar nombres: Los usuarios escribirán el nombre de un amigo en un campo de texto y lo agregarán a una lista visible al hacer clic en "Adicionar".
-//Validar entrada: Si el campo de texto está vacío, el programa mostrará una alerta pidiendo un nombre válido.
-//Visualizar la lista: Los nombres ingresados aparecerán en una lista debajo del campo de entrada.
-//Sorteo aleatorio: Al hacer clic en el botón "Sortear Amigo", se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página.
-
 let ListaAmigos = []; // Array para almacenar los nombres de los amigos
+let AmigoSeleccionado = '';
 
 function agregarAmigo() {
     let inputNombre = document.getElementById('amigo'); // obtener valor del input
@@ -17,7 +12,7 @@ function agregarAmigo() {
         inputNombre.value = ''; 
         actualizarLista();
         LimpiarCaja();
-        console.log(ListaAmigos);
+        console.log(ListaAmigos); //verficar que haya amigos en la lista
     }
 }
 
@@ -32,8 +27,20 @@ function actualizarLista() {
         listaAmigos.appendChild(li); // agregar li a la lista ul
     // añadir los nombres en la app en un listado (elemento ul)
     }
+}
+
+function sortearAmigo() {
+    let indice = Math.floor(Math.random() * ListaAmigos.length); // Math.random() genera un número aleatorio entre 0 y 1, se multiplica por la longitud del array y se redondea hacia abajo con Math.floor()
+    let amigo = ListaAmigos[indice]; // obtener el nombre del amigo seleccionado
+
+    console.log('Amigo seleccionado:', amigo); // verificar el amigo seleccionado en la consola
+}
+function MostrarResultado() {
+    let AmigoSeleccionado = document.getElementById('resultado');
+    resultado.innerHTML = AsignarTextoElemento ('p',('Tu amigo secreto es:' + AmigoSeleccionado));
+}
 
 function LimpiarCaja() {
     document.getElementById('amigo').value = '';
 }
-}
+
